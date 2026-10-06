@@ -58,7 +58,7 @@ export function Why() {
     <section className="sec why">
       <div className="container">
         <div style={{ maxWidth: 720 }}>
-          <span className="sec-eyebrow reveal">Why ProReOn</span>
+          <span className="sec-eyebrow reveal">Why 메드링커</span>
           <h2 className="sec-h2 reveal d1">
             지금 교육 운영,
             <br />

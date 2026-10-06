@@ -64,7 +64,7 @@ function DashboardMock() {
       <div className="dash-row">
         <ListCard
           title="기관 승인대기" tag="승인대기" tagClass="wait"
-          rows={['프로리온 멘토링 · 신청', '임상실무 프로그램 · 신청', '국가고시 멘토링 · 신청']}
+          rows={['메드링커 멘토링 · 신청', '임상실무 프로그램 · 신청', '국가고시 멘토링 · 신청']}
         />
         <ListCard
           title="보고서 및 정산" tag="보고서 정산" tagClass="done"

@@ -6,7 +6,7 @@ import { POOL_MENTORS } from '../data/pool';
 
 function PoolMock() {
   return (
-    <MockWindow variant="mock-pool" bar={{ icon: 'lock', url: 'proreon.kr / pool' }}>
+    <MockWindow variant="mock-pool" bar={{ icon: 'lock', url: '메드링커 / pool' }}>
       <div className="mp-search">
         <div className="mp-search-input">
           <Icon name="search" strokeWidth={2.2} />
@@ -92,7 +92,7 @@ function MentorBoard() {
       </div>
 
       <div className="mentor-board reveal d2">
-        <MockBar icon="lock" url="proreon.kr / mentors" />
+        <MockBar icon="lock" url="메드링커 / mentors" />
         {FEATURED_MENTORS.map((m) => (
           <MentorRow key={m.name} mentor={m} />
         ))}
