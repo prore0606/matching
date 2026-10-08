@@ -77,7 +77,7 @@ function MentorRow({ mentor }: { mentor: FeaturedMentor }) {
 function MentorBoard() {
   return (
     <>
-      <div className="mb-wrap-head reveal" style={{ marginTop: 140 }}>
+      <div className="mb-wrap-head reveal">
         <span className="sec-eyebrow">Featured Mentors</span>
         <h2 className="sec-h2">
           실제로 <span className="serif">이런 분들이</span>
@@ -214,7 +214,7 @@ export function PoolMatching() {
 
         <SolRow
           reverse
-          style={{ marginTop: 120 }}
+          spacing="xl"
           num="03"
           tag="전문성 기반 매칭"
           title={

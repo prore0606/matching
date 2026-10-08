@@ -1,0 +1,61 @@
+/* ============ 공통: 블록 간 여백 (데스크톱 기준) ============ */
+.space-lg{margin-top:80px}
+.space-xl{margin-top:120px}
+.mb-wrap-head{margin-top:140px}
+
+/* 한글이 단어 중간에서 끊기지 않도록 */
+body{word-break:keep-all;overflow-wrap:break-word}
+
+/* ============ 태블릿 이하 ============ */
+@media (max-width:780px){
+  /* 멘토 보드: 주제 태그 위, 설명 아래로 통일 */
+  .mb-topic{flex-direction:column;align-items:flex-start;gap:6px;margin-bottom:14px}
+  .mb-topic-desc{min-width:0}
+}
+
+/* ============ 모바일 ============ */
+@media (max-width:560px){
+  :root{--pad-x:20px}
+
+  /* 섹션 여백 축소 */
+  .sec, .why, .tech, .sol{padding:80px 0}
+  .space-lg{margin-top:56px}
+  .space-xl, .two-up{margin-top:72px}
+  .mb-wrap-head{margin-top:88px}
+  .why-grid{margin-top:40px}
+  .tech-grid{margin-top:44px}
+  .mentor-board{margin-top:36px}
+  .sol-row, .sol-row.rev{gap:36px}
+  .cta{padding:96px 0 110px;border-radius:32px 32px 0 0}
+  .hero{padding:110px 0 72px;border-radius:0 0 28px 28px}
+
+  /* 히어로 카드: 좌우 카드가 화면 밖으로 잘리지 않게 */
+  .stack{height:380px}
+  .pcard{width:220px;padding:18px}
+  .pcard.c1{transform:translate(-50%,-50%) translateX(-58px) translateY(16px) rotate(-8deg)}
+  .pcard.c2{transform:translate(-50%,-50%) translateX(58px) translateY(32px) rotate(8deg)}
+  .stack:hover .pcard.c1{transform:translate(-50%,-50%) translateX(-66px) translateY(16px) rotate(-11deg)}
+  .stack:hover .pcard.c2{transform:translate(-50%,-50%) translateX(66px) translateY(32px) rotate(11deg)}
+  .match-bd{right:0}
+  .chat-bd{left:0;bottom:12px}
+
+  /* 강사 POOL 목업: 메타 정보가 글자 단위로 끊기지 않게 */
+  .mp-item{gap:10px;padding:12px}
+  .mp-meta{flex-wrap:wrap;row-gap:2px}
+  .mp-meta span{white-space:nowrap}
+  .mp-action{padding:6px 10px}
+
+  /* 라이브 목업: 영상 위, 채팅 아래 */
+  .live-body{grid-template-columns:1fr}
+  .msg{max-width:80%}
+
+  /* 정산 서류 목업 */
+  .mock-docs{padding:16px}
+  .docs-row{gap:10px;padding:12px}
+
+  /* 10·11 카드 */
+  .feat-card{padding:28px 22px}
+
+  /* 멘토 보드 */
+  .mb-row{padding:22px 20px}
+}

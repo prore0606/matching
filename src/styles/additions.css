@@ -75,3 +75,4 @@
 .notice-close{width:100%;background:var(--ink-0);color:#fff;padding:13px 0;border-radius:12px;
   font-size:15px;font-weight:600;transition:background .2s}
 .notice-close:hover{background:var(--brand)}
+.footer-info dt{flex-shrink:0;white-space:nowrap}

@@ -128,7 +128,7 @@ export function SchedulingLive() {
 
         <SolRow
           reverse
-          style={{ marginTop: 120 }}
+          spacing="xl"
           num="05"
           tag="오프라인 · 온라인 모두"
           title={

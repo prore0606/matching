@@ -143,7 +143,7 @@ export function Automation() {
         </div>
 
         <SolRow
-          style={{ marginTop: 80 }}
+          spacing="lg"
           num="08"
           tag="자동 보고서"
           title={
@@ -164,7 +164,7 @@ export function Automation() {
 
         <SolRow
           reverse
-          style={{ marginTop: 120 }}
+          spacing="xl"
           num="09"
           tag="정산 서류 자동 첨부"
           title={
