@@ -15,7 +15,7 @@ export interface Notice {
 }
 
 export const CREDITOR_NOTICE: Notice = {
-  title: '채권자 이의 및 채권신고 공고',
+  title: '채권자 이의 및 채권신고 공고(2차)',
   intro:
     '주식회사 메드링커는 2026년 7월 20일 주주총회의 결의로 해산하고 청산절차에 들어갔으므로, 당 회사에 대하여 채권이 있는 분께서는 아래 기간 내에 그 채권의 내용을 신고하여 주시기 바랍니다.',
   items: [
@@ -27,7 +27,7 @@ export const CREDITOR_NOTICE: Notice = {
     { label: '신고방법', value: '채권의 종류, 금액 및 발생 원인 등을 기재한 서면을 위 신고장소로 제출하여 주시기 바랍니다.' },
   ],
   warning: '위 기간 내에 채권신고를 하지 아니한 채권자는 청산절차에서 제외될 수 있으므로 유의하시기 바랍니다.',
-  date: '2026년 8월 1일',
+  date: '2026년 9월 1일',
   issuer: '주식회사 메드링커',
   signer: '청산인 이희선',
 };
